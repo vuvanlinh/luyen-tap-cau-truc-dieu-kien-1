@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tính hoa hồng</title>
+</head>
+<body>
+        <script>
+            let a = parseInt(prompt("Nhập doanh số của bạn(VND) :"));
+            let hoahong1 = a*5/100;
+            let hoahong2 = a*8/100;
+            let hoahong3 = a*10/100;
+            if (a<=1000000) {
+                alert("Hoa hồng của bạn là "+hoahong1+"VND")
+            }
+            if (a>1000000&&a<=10000000) {
+                alert("Hoa hồng của bạn là "+hoahong2+"VND")
+            }
+            if (a>10000000){
+                alert("Hoa hồng của bạn là "+hoahong3+"VND")
+            }
+        </script>
+</body>
+</html>
