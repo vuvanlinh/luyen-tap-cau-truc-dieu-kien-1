@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Xep hang hoc luc</title>
+</head>
+<body>
+           <script>
+               let diemKiemtra = parseInt(prompt("Nhập điểm kiểm tra 15' :"));
+               let diemGiuaky = parseInt(prompt("Nhập điểm thi giữa kỳ :"));
+               let diemCuoiky = parseInt(prompt("Nhập điểm thi cuối kỳ :"));
+               let diemTB = (diemKiemtra+diemGiuaky*2+diemCuoiky*3)/6;
+               if (diemTB>8) {
+                   alert("Học lực Giỏi")
+               }else if (diemTB<8&&diemTB>6.5) {
+                   alert("Học lực khá")
+               }else alert("Cố gắng thêm nhé bạn")
+
+           </script>
+</body>
+</html>
